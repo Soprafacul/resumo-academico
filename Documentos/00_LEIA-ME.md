@@ -6,9 +6,9 @@ Preencha os arquivos na ordem indicada. Não apague os títulos nem as perguntas
 
 - Curso e disciplina: Análise e Desenvolvimento de Sistemas — Design Profissional.
 - Professor ou orientador: Isabella Luiza dos Santos Souza.
-- Grupo: José Kailon e Carlos Henrique (identificação pelos nomes; número não informado).
+- Grupo: José Kailon e Carlos Henrique.
 - Integrantes: José Kailon Teixeira da Silva; Carlos Henrique Nunes Ferreira Barbosa.
-- Data de início: 15/10/2026, data desta preparação.
+- Data de início: 12/10/2026, data desta preparação.
 
 ## Regra de entrega
 
@@ -52,8 +52,8 @@ As referências completas, os links de leitura e as diferenças entre ano do pre
 
 | Integrante | Atividade realizada |
 |---|---|
-| José Kailon Teixeira da Silva | Forneceu a identificação do grupo e o contexto do trabalho. Outras contribuições e revisão do conteúdo precisam ser confirmadas pelo integrante. |
-| Carlos Henrique Nunes Ferreira Barbosa | Contribuições individuais ainda não informadas; registrar somente as atividades efetivamente realizadas. |
+| José Kailon Teixeira da Silva | contexto do trabalho. Outras contribuições e revisão do conteúdo. |
+| Carlos Henrique Nunes Ferreira Barbosa | Contribuições em auxilio e pesquisas |
 
 Preparação inicial com apoio de IA na pesquisa, síntese e redação. A conferência dos integrantes não foi registrada como concluída.
 
