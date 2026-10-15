@@ -24,7 +24,7 @@ O arquivo de orientação original menciona uma sequência de 01 a 10, mas a pas
 4. `03_objetivos.md`: objetivo geral e objetivos específicos.
 5. `04_leitura_e_fichamento.md`: três cópias preenchidas do fichamento, uma por artigo.
 6. `05_matriz_de_sintese.md`: comparação e organização por eixos.
-7. `06_redacao_do_artigo.md`: texto completo, com 653 palavras nas seis partes exigidas, excluídos títulos, identificação, palavras-chave, referências e checklist.
+7. `06_redacao_do_artigo.md`: texto completo, com 654 palavras nas seis partes exigidas, excluídos títulos, identificação, palavras-chave, referências e checklist.
 8. `07_normalizacao_e_revisao.md`: revisão e registro dos ajustes.
 
 ### Sequência indicada no documento original
@@ -40,7 +40,7 @@ O arquivo de orientação original menciona uma sequência de 01 a 10, mas a pas
 - `09_normalizacao_e_revisao.md`
 - `10_apresentacao.md`
 
-O planejamento e os critérios de seleção estão documentados na metodologia e no registro de fontes. Não há enunciado de apresentação oral na pasta consultada.
+O planejamento e os critérios de seleção estão documentados na metodologia e no registro de fontes. O modelo de apresentação ENCIBRAC foi recebido posteriormente e utilizado na apresentação complementar.
 
 ## Tema e fontes
 
@@ -61,5 +61,5 @@ Preparação inicial com apoio de IA na pesquisa, síntese e redação. A confer
 
 - Ler o texto e verificar os fichamentos e fontes.
 - Confirmar as contribuições individuais e a aprovação do tema pela professora, caso exigida.
-- Confirmar se há norma institucional adicional; os enunciados disponibilizados não indicam uma norma bibliográfica específica.
+- Conferir o resumo ENCIBRAC e a apresentação preparados conforme os modelos recebidos posteriormente. Confirmar se a exigência de referências inclui também livro da biblioteca institucional.
 - Usar a cópia do grupo para a entrega; este pacote não altera o repositório da professora.
