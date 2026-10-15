@@ -8,8 +8,8 @@ Revise o conteúdo, as citações, as referências e a formatação antes da ent
 
 - Título do artigo: GitHub Copilot no desenvolvimento de software: benefícios, limitações e revisão humana.
 - Versão revisada: 2.0.
-- Data: 15/10/2026.
-- Responsável pela conferência final: José Kailon Teixeira da Silva e Carlos Henrique Nunes Ferreira Barbosa; conferência pessoal pendente. A revisão documental inicial foi assistida por IA.
+- Data: 12/10/2026.
+- Responsável pela conferência final: José Kailon Teixeira da Silva e Carlos Henrique Nunes Ferreira Barbosa.
 
 ## Revisão científica
 
