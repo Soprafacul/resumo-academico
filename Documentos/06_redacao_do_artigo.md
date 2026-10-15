@@ -8,7 +8,7 @@ Considerando INTRODUÇÃO, METODOLOGIA, REVISÃO DA LITERATURA, SÍNTESE CRÍTIC
 
 ## Título
 
-GitHub Copilot no desenvolvimento de software: benefícios, limitações e revisão humana
+# GitHub Copilot no desenvolvimento de software: benefícios, limitações e revisão humana
 
 **Autores:** José Kailon Teixeira da Silva; Carlos Henrique Nunes Ferreira Barbosa.  
 **Curso:** Análise e Desenvolvimento de Sistemas.  
@@ -16,65 +16,46 @@ GitHub Copilot no desenvolvimento de software: benefícios, limitações e revis
 **Professora:** Isabella Luiza dos Santos Souza.  
 **Data:** 15/10/2026.
 
-## Palavras-chave
+**Palavras-chave:** GitHub Copilot; desenvolvimento de software; revisão de código.
 
-GitHub Copilot; desenvolvimento de software; revisão de código.
+## 1. Introdução
 
-## Introdução
+O uso de ferramentas de inteligência artificial na programação vem mudando a forma como algumas tarefas são realizadas. O GitHub Copilot, por exemplo, sugere trechos de código que podem ajudar o programador durante o desenvolvimento. Porém, aceitar uma sugestão não significa que ela esteja correta ou que funcione como esperado. Por esse motivo, este trabalho busca responder à seguinte questão: quais são os benefícios e as dificuldades do Copilot e por que a revisão humana continua sendo importante? O assunto é relevante para estudantes de Análise e Desenvolvimento de Sistemas, que precisam aprender não apenas a escrever código, mas também a analisar as soluções utilizadas. Assim, o objetivo é discutir as vantagens e as limitações da ferramenta na programação e na validação do código.
 
-Receber uma sugestão de código não significa ter uma solução pronta. É preciso entender o que ela faz e verificar se atende ao problema. Essa questão orienta este trabalho sobre o GitHub Copilot, com foco no apoio à programação e nos limites de seu uso. A pergunta de pesquisa é: quais benefícios e dificuldades aparecem nos estudos selecionados e o que eles indicam sobre a revisão humana? O tema se relaciona à formação em Análise e Desenvolvimento de Sistemas, pois envolve decisões que o futuro profissional terá de justificar. O objetivo é analisar benefícios e limitações do Copilot na escrita e validação de código.
+## 2. Metodologia
 
-## Metodologia
+Para desenvolver o trabalho, foi realizada uma revisão bibliográfica narrativa, com abordagem qualitativa. A busca foi feita em 15 de outubro de 2026, utilizando os termos “GitHub Copilot”, “usability” e “security”. Também foram consultados os títulos e os nomes dos autores para localizar os textos completos em repositórios acadêmicos, como Harvard, UC San Diego e arXiv, além de conferir os DOI das publicações. Foram selecionados três estudos publicados em 2022 e 2023, considerando o acesso integral e a relação com o tema. Materiais promocionais e versões repetidas foram deixados de fora. Depois da seleção, os métodos, resultados e limitações foram comparados para identificar os principais pontos em comum e as diferenças entre as pesquisas.
 
-Foi realizada uma revisão bibliográfica narrativa, de natureza teórica e abordagem qualitativa. A busca exploratória ocorreu em 15 de outubro de 2026, na web, com os termos “GitHub Copilot”, “usability” e “security”, além dos títulos e nomes dos autores. Os textos completos foram consultados nos repositórios de Harvard, UC San Diego e arXiv, com conferência dos DOI das publicações ACM e IEEE. A seleção considerou estudos empíricos de 2021 a 2026, acesso integral e relação com a pergunta. Foram escolhidos três trabalhos publicados em 2022 e 2023. Materiais promocionais e versões duplicadas não compuseram o conjunto. Métodos, resultados e limitações foram comparados por tema, sem pretensão de esgotar a literatura.
+## 3. Revisão da literatura
 
-## Revisão da literatura
+### 3.1 Usabilidade e apoio à programação
 
-### Usabilidade e apoio à programação
+Vaithilingam, Zhang e Glassman (2022) realizaram um estudo com 24 participantes que utilizaram o Copilot e o IntelliSense em tarefas de programação com Python. Embora 19 participantes tenham demonstrado preferência pelo Copilot, não foram encontradas diferenças estatisticamente significativas no tempo de conclusão e no sucesso das tarefas. Os participantes também relataram dificuldades para compreender e corrigir algumas sugestões.
 
-Vaithilingam, Zhang e Glassman (2022) compararam Copilot e IntelliSense com 24 participantes em tarefas Python. Embora 19 preferissem o Copilot, as diferenças no tempo de conclusão e no sucesso das tarefas não foram estatisticamente significativas. Os relatos também mostraram dificuldades para entender e corrigir o código sugerido. Barke, James e Polikarpova (2023), por sua vez, observaram 20 participantes em quatro linguagens e identificaram dois modos de uso: aceleração, quando a pessoa sabe como seguir, e exploração, quando procura uma solução. Os trabalhos apontam apoio para iniciar tarefas, mas medem aspectos diferentes. A descrição de um modo de aceleração não comprova, por si só, ganho geral de produtividade.
+Já Barke, James e Polikarpova (2023) observaram 20 participantes trabalhando com quatro linguagens de programação. Os autores identificaram duas formas de interação com a ferramenta: a aceleração, quando o programador já sabe o que pretende fazer, e a exploração, quando procura possibilidades para resolver um problema. Os estudos mostram que o Copilot pode ajudar durante a programação, mas não comprovam que ele aumente a produtividade em todas as situações.
 
-### Segurança e validação do código
+### 3.2 Segurança e validação do código
 
-Pearce et al. (2022) examinaram 1.689 programas gerados em 89 cenários de segurança, com análise automatizada e inspeção manual. Cerca de 40% apresentaram vulnerabilidades. O resultado vale para os cenários escolhidos e não representa uma taxa de risco de todo uso do Copilot. Além disso, o conjunto inclui software e descrições de hardware. Enquanto os outros estudos observam pessoas usando a ferramenta, este avalia as saídas geradas. A diferença impede somar os resultados como se fossem uma única medida. Para esta revisão, o diálogo entre eles reforça que facilidade de uso e segurança precisam ser avaliadas separadamente.
+A segurança também precisa ser considerada. Pearce et al. (2022) analisaram 1.689 programas gerados pelo Copilot em 89 cenários relacionados à segurança. Cerca de 40% apresentaram vulnerabilidades. Esse resultado merece atenção, mas deve ser interpretado dentro dos limites da pesquisa, pois não representa todos os usos possíveis da ferramenta. O estudo também incluiu cenários envolvendo software e descrições de hardware.
 
-## Síntese crítica
+Diferentemente das outras pesquisas, que observaram pessoas utilizando o assistente, esse trabalho avaliou o código produzido. Por isso, os resultados não podem ser comparados como se medissem a mesma coisa. Ainda assim, em conjunto, os estudos mostram que a facilidade de programar e a segurança do código são questões diferentes e precisam ser avaliadas separadamente.
 
-O ponto central da comparação é o trabalho que continua depois da geração do código. Uma sugestão pode ajudar a começar uma tarefa e, ainda assim, exigir correções. Também pode parecer adequada sem ter sido examinada quanto à segurança. Por isso, a utilidade deve ser discutida junto ao esforço de revisão. Há limites claros nas evidências: amostras pequenas de usuários, tarefas delimitadas e versões antigas da ferramenta. Nesse conjunto, falta acompanhar equipes por mais tempo para relacionar o apoio recebido ao retrabalho e aos defeitos encontrados nos projetos.
+## 4. Síntese crítica
 
-## Considerações finais
+Ao comparar as pesquisas, percebe-se que o Copilot pode facilitar algumas etapas da programação, mas isso não elimina a necessidade de conferir o resultado. Uma sugestão pode parecer adequada no primeiro momento e ainda precisar de ajustes ou apresentar problemas de segurança. Outro ponto é que os estudos foram realizados com grupos pequenos e tarefas específicas, o que limita a aplicação dos resultados a projetos maiores. Também seria importante acompanhar equipes durante períodos mais longos para entender se o uso da ferramenta realmente reduz o trabalho ou acaba gerando mais correções posteriormente.
 
-Os estudos indicam apoio à escrita de código, mas também dificuldades de compreensão e riscos que não permitem dispensar a revisão humana. A resposta à pergunta depende, portanto, da tarefa e do modo como a sugestão é verificada. Na formação profissional, propõe-se que o aluno explique o código aceito e demonstre, por meio de testes, como ele atende aos requisitos. Essa proposta é uma interpretação da revisão, não uma intervenção avaliada. Pesquisas futuras podem comparar o esforço de validação em projetos completos. As conclusões não devem ser transferidas automaticamente às versões atuais do Copilot.
+## 5. Considerações finais
 
-## Resumo
+Com base nos estudos analisados, o GitHub Copilot pode auxiliar na escrita de código, mas apresenta limitações relacionadas à compreensão das sugestões e à segurança. Dessa forma, a revisão humana continua sendo necessária, principalmente para verificar se o código atende aos requisitos e funciona corretamente. Na formação em Análise e Desenvolvimento de Sistemas, uma possibilidade é incentivar os alunos a explicar as sugestões que utilizam e realizar testes antes de aceitar uma solução. Essa proposta decorre da análise dos estudos, mas não foi testada diretamente por eles. Para pesquisas futuras, seria interessante avaliar o uso do Copilot em projetos completos e observar a quantidade de correções necessárias durante o desenvolvimento.
 
-Esta revisão narrativa compara três estudos sobre o GitHub Copilot, publicados em 2022 e 2023. A análise qualitativa aborda usabilidade e segurança. Os trabalhos mostram apoio à programação, dificuldades de compreensão e limites no código gerado. Conclui-se que o uso do assistente exige revisão humana e verificação técnica, respeitados os limites das pesquisas analisadas.
+## 6. Resumo
+
+Este trabalho analisa três estudos sobre o GitHub Copilot, publicados em 2022 e 2023, por meio de uma revisão bibliográfica narrativa de abordagem qualitativa. Foram discutidos aspectos relacionados à usabilidade, ao apoio à programação e à segurança do código. Os resultados indicam que a ferramenta pode ajudar no desenvolvimento, mas também apresenta dificuldades de compreensão e riscos nas sugestões geradas. Conclui-se que a revisão humana e os testes continuam importantes para um uso mais seguro do assistente.
 
 ## Referências
 
-BARKE, Shraddha; JAMES, Michael B.; POLIKARPOVA, Nadia. Grounded Copilot: How Programmers Interact with Code-Generating Models. Proceedings of the ACM on Programming Languages, v. 7, n. OOPSLA1, art. 78, 27 p., 2023. DOI: https://doi.org/10.1145/3586030.
+BARKE, Shraddha; JAMES, Michael B.; POLIKARPOVA, Nadia. Grounded Copilot: How Programmers Interact with Code-Generating Models. *Proceedings of the ACM on Programming Languages*, v. 7, n. OOPSLA1, art. 78, 2023. DOI: https://doi.org/10.1145/3586030.
 
-PEARCE, Hammond; AHMAD, Baleegh; TAN, Benjamin; DOLAN-GAVITT, Brendan; KARRI, Ramesh. Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions. In: 2022 IEEE Symposium on Security and Privacy (SP). IEEE, 2022. p. 754-768. DOI: https://doi.org/10.1109/SP46214.2022.9833571.
+PEARCE, Hammond; AHMAD, Baleegh; TAN, Benjamin; DOLAN-GAVITT, Brendan; KARRI, Ramesh. Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions. In: *2022 IEEE Symposium on Security and Privacy (SP)*. IEEE, 2022. p. 754–768. DOI: https://doi.org/10.1109/SP46214.2022.9833571.
 
-VAITHILINGAM, Priyan; ZHANG, Tianyi; GLASSMAN, Elena. Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models. In: CHI Conference on Human Factors in Computing Systems Extended Abstracts. New York: ACM, 2022. 7 p. DOI: https://doi.org/10.1145/3491101.3519665.
-
-## Checklist
-
-- [x] A introdução termina com o objetivo.
-- [x] A metodologia descreve o processo realmente realizado.
-- [x] A revisão compara os artigos.
-- [x] A conclusão responde ao problema.
-- [x] O resumo representa o texto completo.
-
-**Controle de extensão:** 654 palavras no corpo das seis partes exigidas, por separação por espaços. Os títulos, os metadados, as palavras-chave, as referências e este checklist não integram a contagem.
-
-## Orientações de preenchimento preservadas
-
-- Título: claro e coerente com o tema.
-- Introdução: apresente contexto, foco, problema ou lacuna, justificativa e objetivo.
-- Metodologia: informe o tipo de revisão, bases, estratégias de busca, período, critérios, triagem e forma de análise.
-- Revisão da literatura: compare estudos, resultados, métodos e limitações.
-- Síntese crítica: apresente tendências, convergências, divergências e lacunas.
-- Considerações finais: responda ao problema, interprete os achados, destaque avanços e limitações e indique implicações futuras específicas.
-- Resumo: escreva por último; contexto breve, objetivo, método, principais achados e conclusão.
-- Referências: liste apenas as fontes citadas, conforme o padrão solicitado.
+VAITHILINGAM, Priyan; ZHANG, Tianyi; GLASSMAN, Elena. Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models. In: *CHI Conference on Human Factors in Computing Systems Extended Abstracts*. New York: ACM, 2022. DOI: https://doi.org/10.1145/3491101.3519665.
